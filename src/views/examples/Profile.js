@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/roaalogo.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -92,7 +92,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Connect
+                          Profile
                         </Button>
                         <Button
                           className="float-right"
@@ -101,54 +101,56 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                          Projects
                         </Button>
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">6</span>
+                          <span className="description">Projects</span>
+                        </div>
+                        <div>
+                          <span className="heading">4</span>
+                          <span className="description">Languages</span>
                         </div>
                         <div>
                           <span className="heading">10</span>
-                          <span className="description">Photos</span>
-                        </div>
-                        <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="description">Tools</span>
                         </div>
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Roaa Mustafa{" "}
+                      <span className="font-weight-light">, 23</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Specialist - software Developer and network Engineer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      University of AlBalqa Applied ,   Faculty of Engineering Technology
+
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          Graduated from Al Balqa University in June 2020 as a telecommunication engineer.
+                          have knowledge in networking (routing and switching) due to course from cisco academy in queen sumiah university took it before graduation.
+                          ccna certified from cisco from 2019.
+                          Also have knowledge in azure platform and cloud computing due to internship with HTU (from June to October 2020) and certified from Microsoft in azure foundemetal.
+                          didn't work until  decided to change the major into development so I joined Abdul Aziz Al Ghurair School of Advanced Computing ASAC  gotting a scholarship learning web development. Until now I’m a good HTML ,CSS, JavaScript developer.
+
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more

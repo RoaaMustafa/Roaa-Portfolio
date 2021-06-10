@@ -24,7 +24,9 @@ import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+// 
+
+import Roaaimg from "assets/img/theme/roaalogo.jpg";
 
 // reactstrap components
 import {
@@ -81,15 +83,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Successful Front-end Development
+                       {" "}
+                        <span>Design and Build User Interfaces</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Web Designer & Developer based in Amman, Jordan.
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -112,7 +113,7 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -257,14 +258,14 @@ class Landing extends React.Component {
           <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
-                <Col className="order-md-2" md="6">
+                {/* <Col className="order-md-2" md="6">
                   <img
                     alt="..."
                     className="img-fluid floating"
                     src={promo1}
                   />
-                </Col>
-                <Col className="order-md-1" md="6">
+                </Col> */}
+                {/* <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
@@ -327,11 +328,11 @@ class Landing extends React.Component {
                       </li>
                     </ul>
                   </div>
-                </Col>
+                </Col> */}
               </Row>
             </Container>
           </section>
-          <section className="section bg-secondary">
+          {/* <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -401,9 +402,9 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <section className="section pb-0 bg-gradient-warning">
-            <Container>
+            {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
                   <div className="position-relative pl-md-5">
@@ -488,7 +489,7 @@ class Landing extends React.Component {
                   </Card>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
@@ -512,15 +513,13 @@ class Landing extends React.Component {
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                   
                   </p>
                 </Col>
               </Row>
               <Row>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6"> */}
+                  {/* <div className="px-4">
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
@@ -559,9 +558,9 @@ class Landing extends React.Component {
                         </Button>
                       </div>
                     </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  </div> */}
+                {/* </Col> */}
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -604,8 +603,8 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                </Col> */}
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -646,45 +645,45 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
+                </Col> */}
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={team4}
+                      src={Roaaimg}
                       style={{ width: "200px" }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">John Doe</span>
+                        <span className="d-block mb-1">Roaa Mustafa</span>
                         <small className="h6 text-muted">Founder and CEO</small>
                       </h5>
                       <div className="mt-3">
-                        <Button
+                        {/* <Button
                           className="btn-icon-only rounded-circle"
                           color="success"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
-                        </Button>
+                        </Button> */}
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
-                          href="#pablo"
+                          href="ttps://web.facebook.com/98roaa.mustafa"
                           onClick={e => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
-                        <Button
+                        {/* <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
-                        </Button>
+                        </Button> */}
                       </div>
                     </div>
                   </div>
@@ -693,7 +692,7 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg pt-0">
-            <Container>
+            {/* <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
                   <Row className="align-items-center">
@@ -721,10 +720,10 @@ class Landing extends React.Component {
                   </Row>
                 </div>
               </Card>
-            </Container>
+            </Container> */}
           </section>
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+            {/* <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
@@ -768,9 +767,9 @@ class Landing extends React.Component {
                   </p>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -784,7 +783,7 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+          </div> */}
           </section>
           <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
