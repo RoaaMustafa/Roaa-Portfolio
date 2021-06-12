@@ -36,10 +36,9 @@ class Profile extends React.Component {
       <>
         <DemoNavbar />
         <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
+          <section className="section-profile-cover section-shaped my-0" style={{backgroundImage:'url(https://downloader.la/temp/60c50a1c784a9.jpg)'}}>
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
               <span />
               <span />
               <span />
