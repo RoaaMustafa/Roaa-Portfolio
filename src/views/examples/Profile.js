@@ -50,7 +50,7 @@ class Profile extends React.Component {
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://downloader.la/temp/60c50a1c784a9.jpg"
                 preserveAspectRatio="none"
                 version="1.1"
                 viewBox="0 0 2560 100"
@@ -101,7 +101,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Projects
+                          Contact
                         </Button>
                       </div>
                     </Col>
@@ -163,7 +163,7 @@ class Profile extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        {/* <SimpleFooter /> */}
       </>
     );
   }

@@ -149,31 +149,29 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Ethar- 201 Project 
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          	web App was created to enhance the values of cooperation and volunteering in the community by making it easier for users to donate tools, clothes, food, and electronic devices in addition to providing some services through a team of specialized volunteers, who provide services such as construction, carpentry and paint to the needy people for free.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              home page
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              donate page
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              service page
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://ethar-201.netlify.app/"
+                            // onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            Move to  WebSite
                           </Button>
                         </CardBody>
                       </Card>
@@ -185,7 +183,7 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            301 Project
                           </h6>
                           <p className="description mt-3">
                             Argon is a great free UI package based on Bootstrap
@@ -221,7 +219,7 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            401 Project
                           </h6>
                           <p className="description mt-3">
                             Argon is a great free UI package based on Bootstrap
@@ -511,7 +509,7 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3"></h2>
                   <p className="lead text-muted">
                    
                   </p>
@@ -786,7 +784,7 @@ class Landing extends React.Component {
           </div> */}
           </section>
           <section className="section section-lg pt-lg-0 section-contact-us">
-            <Container>
+            {/* <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
@@ -858,11 +856,11 @@ class Landing extends React.Component {
                   </Card>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
           </section>
-          <Download />
+          {/* <Download /> */}
         </main>
-        <CardsFooter />
+        {/* <CardsFooter /> */}
       </>
     );
   }
