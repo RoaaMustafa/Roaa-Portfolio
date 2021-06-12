@@ -36,10 +36,9 @@ class Profile extends React.Component {
       <>
         <DemoNavbar />
         <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
+          <section className="section-profile-cover section-shaped my-0" style={{backgroundImage:'url(https://downloader.la/temp/60c50a1c784a9.jpg)'}}>
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
               <span />
               <span />
               <span />
@@ -50,7 +49,7 @@ class Profile extends React.Component {
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://downloader.la/temp/60c50a1c784a9.jpg"
                 preserveAspectRatio="none"
                 version="1.1"
                 viewBox="0 0 2560 100"
@@ -101,7 +100,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Projects
+                          Contact
                         </Button>
                       </div>
                     </Col>
@@ -163,7 +162,7 @@ class Profile extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        {/* <SimpleFooter /> */}
       </>
     );
   }
